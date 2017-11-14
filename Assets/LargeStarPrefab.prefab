@@ -24,9 +24,10 @@ GameObject:
   - component: {fileID: 114623952577808712}
   - component: {fileID: 64475997465177850}
   - component: {fileID: 114546613372678974}
+  - component: {fileID: 114207548828504378}
   m_Layer: 0
   m_Name: LargeStarPrefab
-  m_TagString: Untagged
+  m_TagString: LageStar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,6 +100,18 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 40429110a27a6e944985f2dd6d622cc7, type: 3}
+--- !u!114 &114207548828504378
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1683655337588364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0455ffebd40ea740bf176db756e140a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScoreText: {fileID: 0}
 --- !u!114 &114546613372678974
 MonoBehaviour:
   m_ObjectHideFlags: 1
